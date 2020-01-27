@@ -11,6 +11,14 @@
 
 struct SQLEditApp {
   GtkWidget *window;
+
+  GtkWidget* statusBar;
+  GtkWidget* statusBarBox;
+  gint statusBarContextId;
+
+  GtkWidget *tree;
+  GtkWidget *tabs;
+
   struct SQLEditLogger* log;
 };
 
